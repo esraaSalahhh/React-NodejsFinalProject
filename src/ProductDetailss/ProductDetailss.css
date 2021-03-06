@@ -1,0 +1,115 @@
+.main:hover {
+    text-decoration: none;
+  }
+  .reword:hover {
+    color: darkorange;
+  }
+  .pay:hover {
+    color: deepskyblue;
+  }
+  .bordColor:hover {
+    border-color: darkorange;
+    color: darkorange;
+    background-color: #282828;
+  }
+  .socialIcon {
+    font-size: 22px;
+  }
+  .socialIcon:hover {
+    color: darkorange;
+  }
+          .containerx {
+display: flex;
+}
+.flex-item {
+width: 150px;
+height: 100px;
+border: 1px solid black;
+}
+.flex-item p {
+margin: 0;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+    body {
+        background-color: #f5f5f5;
+    }
+
+    .o:hover {
+        color: darkorange;
+    }
+
+    .b:hover {
+        color: deepskyblue;
+    }
+
+    .icon {
+        margin-left: 70px;
+        padding: 9px;
+        color: #787878;
+        width: 40px;
+        font-size: 17px;
+        border: 1px solid #D0D0D0;
+        border-right: none;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        height: 37px;
+
+    }
+
+    .input-field {
+        left: 10px;
+        border: 1px solid #D0D0D0;
+        font-size: 17px;
+        width: 520px;
+        /* border-left: none; */
+        height: 37px;
+        /*            text-align: center;*/
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+    }
+
+    .log {
+        font-size: 17px;
+        font-weight: 500;
+        color: #303030;
+    }
+
+    .u:hover {
+        text-decoration: underline;
+    }
+
+    .montg {
+        margin-left: 2px;
+    }
+
+    .p {
+        font-size: 20px;
+    }
+
+    .btn d-none d-xl-block:hover {
+        background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+        background-color: #ffab23;
+    }
+
+    .shadoww {
+        transition: transform .2s;
+    }
+
+    .shadoww:hover {
+
+        /*      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1) !important;*/
+        cursor: pointer;
+        transform: scale(1.02);
+        /*        box-shadow: 0 -5px 5px -5px #333;*/
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+    }
+
+    .divstyle {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+        background-color: white;
+        border-radius: 4px;
+    }

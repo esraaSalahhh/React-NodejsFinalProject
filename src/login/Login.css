@@ -1,0 +1,300 @@
+.loginSection
+{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.devider::after
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    content: "";
+    width: 1px;
+    background-color: #57555528;
+    height: 100%;
+
+
+
+}
+.bodyContainer
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.formTitle
+{
+    font-size: 19px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color:#f68b1e;
+    
+
+}
+.btnLogo
+{
+    position: relative;
+    float: left;
+    clear: both;
+    
+    
+}
+ .loginBtnTxt
+{
+    font-size: 15px;
+    font-weight:600;
+   
+}
+.loginFBBtnTxt
+{
+    font-size: 15px;
+    font-weight:600;
+
+} 
+.forgotPass
+{
+    font-size: 13px;
+    font-weight: bold;
+    color:#f68b1e;
+    position: relative;
+    float: right;
+    clear: both;
+}
+.forgotPass:hover
+{
+
+    color:#f68b1e;
+    
+}
+.formInput
+{
+    border-radius: 0px;
+    border-width: 0px 0px 1px 0px;
+    
+    
+}
+.formInput:focus
+{
+    border-radius: 0px !important;
+    border-width: 0px 0px 2px 0px !important;
+    border-color:#f68b1e !important;
+    box-shadow: 0px 0px black !important;
+}
+.movingLable
+{
+    font-size: 1rem;
+    position: relative;
+    top: 40px;
+    transition: all 0.2s ease-out;
+}
+
+
+.containerCheck {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.containerCheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(189, 189, 189);
+  border-radius: 3px;
+}
+
+
+
+
+
+.containerCheck input:checked ~ .checkmark {
+
+  border: 2px solid #ff9100;
+  background-color: #ff9100;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.containerCheck input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.containerCheck .checkmark:after {
+  left: 5.5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.H48
+{
+    height: 48px;
+    padding-top : 0px ;
+    padding-bottom: 0px;
+}
+.lgnBtn
+{
+    background-color: #f68b1e;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(175, 175, 175, 0.698);
+}
+.lgnBtn:hover
+{
+    background-color: #cc7319;
+    color: white;
+    
+}
+
+.lgnBtn:focus
+{
+    box-shadow: 0px 4px 6px rgba(175, 175, 175, 0.698);
+    border: 2px solid  #b1600f;
+    
+   
+}
+
+.fbBtn
+{
+    box-shadow: 0px 4px 6px rgba(175, 175, 175, 0.698);
+    background-color: #40588a;
+    color: white;
+}
+.fbBtn:hover
+{
+    background-color: #344f88;
+    color: white;
+    
+}
+
+.fbBtn:focus
+{
+    box-shadow: 0px 4px 6px rgba(175, 175, 175, 0.698);
+    border: 2px solid  #23365f;
+    
+   
+}
+.fa-envelope
+{
+    font-size: 20px;
+}
+.fa-facebook-square
+{
+    font-size: 20px;
+}
+.registerEmail:hover
+{
+text-decoration: none;
+}
+
+.log-regToggler
+{
+    display: flex;
+    justify-content: center;
+
+
+
+}
+.logToggle
+{
+    color: coral;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color:coral;
+}
+.regToggle
+{
+    color: rgb(49, 49, 49);
+    /* border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color:coral; */
+}
+.setMargin
+{
+    margin: 10px 0px;
+}
+.toggler
+{
+    display: none;
+    box-shadow:0px 3px 7px rgba(126, 126, 126, 0.322);
+}
+.or
+     {
+         display: none;
+     }
+/* --------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 800px) {
+    .devider::after{display: none;}
+    
+     .loginSection{padding: 0px 20px 0px 20px;}
+     .upperNav{display: none;}
+     .stickyHead{position: relative; width: 100%;}
+     .bodyContainer{margin-top: 0px;}
+     .toggler{display: flex; margin-bottom: 10px;}
+     .regsec{display: none;}
+     .ftr{display: none;}
+     .formTitle{display: none;}
+     .frm
+     {
+         display: flex;
+         justify-content: center;
+     }
+     .col-md-6
+     {
+        flex: 0 0 100%;
+        max-width: 100%;
+     }
+     .or
+     {
+         display: flex;
+     }
+    /* .regSection{width: 100%;}  */
+
+
+
+
+
+
+
+
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+
+
+
+
+          

@@ -1,0 +1,55 @@
+/* Checkout Steps */
+.checkout-steps > div {
+  border-top: 0.3rem #c0c0c0 solid;
+  color: #c0c0c0;
+  flex: 1;
+  padding: 1rem;
+  font-weight: bold;
+}
+.checkout-steps > div.active {
+  border-top-color: #f08000;
+  color: #f08000;
+}
+label{
+    font-weight: bold;
+}
+.formContainer{
+    width: 60%;
+    margin: auto;
+}
+.lgnBtn
+{
+  background-color: #f68b1e;
+  color: white;
+  box-shadow: 0px 4px 6px rgba(175, 175, 175, 0.698);
+}
+.lgnBtn:hover
+{
+  background-color: #cc7319;
+  color: white;
+  
+}
+img.small {
+  max-width: 10rem;
+  width: 60px;
+}
+
+/* Table */
+.table {
+width: 100%;
+border-collapse: collapse;
+}
+.table tbody tr:nth-of-type(odd) {
+background-color: #f4f4f4;
+}
+.table td,
+.table th {
+text-align: left;
+border: 0.1rem solid #e4e4e4;
+padding: 0.5rem;
+}
+.table button {
+margin: 0 0.2rem;
+}
+
+

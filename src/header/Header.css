@@ -1,0 +1,85 @@
+.o:hover {
+  color: darkorange;
+}
+
+.b:hover {
+  color: deepskyblue;
+}
+
+.icon {
+  margin-left: 70px;
+  padding: 9px;
+  color: #787878;
+  width: 40px;
+  font-size: 17px;
+  border: 1px solid #D0D0D0;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 37px;
+
+}
+
+.input-field {
+  left: 10px;
+  border: 1px solid #D0D0D0;
+  font-size: 17px;
+  width: 520px;
+  /* border-left: none; */
+  height: 37px;
+  /*            text-align: center;*/
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+
+}
+     .log {
+  font-size: 17px;
+  font-weight: 500;
+  color: #303030;
+}
+     .u:hover {
+  text-decoration: underline;
+}
+.badge{
+  background-color: darkorange;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: .02rem .07;
+  /*font-size: 1.4rem;*/
+  margin-left: 0.02rem;
+}
+/* Dropdown */
+.dropdown {
+display: inline-block;
+position: relative;
+}
+.dropdown-content {
+position: absolute;
+display: none;
+right: 0;
+min-width: 12rem;
+padding: 1rem;
+z-index: 1;
+background-color: #203040;
+margin: 0;
+margin-top: 0.4rem;
+border-radius: 0.5rem;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+input{
+  direction: auto;
+}
+
+.rtlClass {
+  text-align: right;
+  direction: rtl;
+}
+
+.ltrClass {
+  text-align: left;
+  direction: ltr;
+}
