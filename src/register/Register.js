@@ -210,13 +210,6 @@ const onChangeEmail = (e) => {
 
           <div className="col-12 formLogin"><button type="submit" 
            id="submit" className="btn  btn-block H48 lgnBtn" > <span className="btnLogo"></span><span className="loginBtnTxt">{t("Ecacc")}</span></button></div>
-          <br className="or" />
-          <div className="row or">
-            <div className="col-5" style={{ "padding": "0px" }}><hr /></div>
-            <div className="col-2" style={{ "display": "flex", "justify-content": "center", "padding": "0px" }}>{t("Eor")}</div>
-            <div className="col-5" style={{ "padding": "0px" }}><hr /></div>
-          </div>
-          <br />
           {/* <div className="col-12 formFB"><button type="button" className="btn  btn-block H48 fbBtn"><span className="btnLogo"><i className="fab fa-facebook-square"></i></span><span className="loginFBBtnTxt">{t("Erig")}</span></button></div> */}
           <div className="text-center">
           <p className="text-center mt-5">{t("Ealreadyhave")}</p>

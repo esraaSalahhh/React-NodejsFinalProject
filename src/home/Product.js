@@ -21,7 +21,7 @@ const Product = (props) => {
   return (
       
      <>
-      <div dir="auto" style={{textAlign: 'start'}} key={product._id} class="col-lg-2 col-md-4 col-sm-4 col-4 shadoww" style={{"float": "left"}} > 
+      <div dir="auto" style={{textAlign: 'start'}} key={product._id} class="col-lg-2 col-md-4 col-sm-4 col-6 shadoww" style={{"float": "left"}} > 
      {/* onclick="item()" */}
      {/* {getpro()} */}
      {/* {console.log(prod)} */}
