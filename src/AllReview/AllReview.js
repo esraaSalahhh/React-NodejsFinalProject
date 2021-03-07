@@ -76,51 +76,10 @@ const AllReview = (props) => {
                   </div>
                    )) : (<h2>Loading</h2>)}
                    <br/>
-                  <div className="row">
-                    <div className="col-6" style={{ "font-size": "11px" }}>
-                      <p> 5 <i className="fas fa-star" style={{ "color": "darkorange", "font-size": "15px" }}></i>(23)
-                                        </p>
-                      <p> 4 <i className="fas fa-star" style={{ "color": "darkorange", "font-size": "15px" }}></i>(8)
-                                        </p>
-                      <p> 3 <i className="fas fa-star" style={{ "color": "darkorange", "font-size": "15px" }}></i>(1)
-                                        </p>
-                      <p> 2 <i className="fas fa-star" style={{ "color": "darkorange", "font-size": "15px" }}></i>(0)
-                                        </p>
-                      <p> 1 <i className="fas fa-star" style={{ "color": "darkorange", "font-size": "15px" }}></i>(1)
-                                        </p>
-                    </div>
-                    <div className="col-6">
-                      <p>
-                        <div className="progress" style={{ "height": "10px" }}>
-                          <div className="progress-bar bg-warning" style={{ "width": "80%" }}></div>
-                        </div>
-                      </p>
-                      <p>
-                        <div className="progress" style={{ "height": "10px" }}>
-                          <div className="progress-bar bg-warning" style={{ "width": "20%" }}></div>
-                        </div>
-                      </p>
-                      <p>
-                        <div className="progress" style={{ "height": "10px" }}>
-                          <div className="progress-bar bg-warning" style={{ "width": "10%" }}></div>
-                        </div>
-                      </p>
-                      <p>
-                        <div className="progress" style={{ "height": "10px" }}>
-                          <div className="progress-bar bg-warning" style={{ "width": "0%" }}></div>
-                        </div>
-                      </p>
-                      <p>
-                        <div className="progress" style={{ "height": "10px" }}>
-                          <div className="progress-bar bg-warning" style={{ "width": "10%" }}></div>
-                        </div>
-                      </p>
-                    </div>
-                  </div>
                 </div>
               </div>
               <div className="col-sm-8">
-                <p> {t("Ereview")} (14) </p>
+                <p> {t("Ereview")}</p>
                 {allrev ? (allrev.map((revi, index) =>
                   <Review key={revi._id} review={revi}/>
                 )) : (<h2>Loading</h2>)}

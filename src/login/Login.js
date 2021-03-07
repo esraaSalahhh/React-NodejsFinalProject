@@ -46,7 +46,7 @@ useEffect(() =>{
 
 const onChangeEmail = (e) => {
     let x = e.target.value.length;
-    let re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    let re = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
     const email = e.target.value;
    // console.log(e.target.name);
     setEmail(email);
@@ -75,7 +75,8 @@ const onChangeEmail = (e) => {
             <div className="container bodyContainer" dir="auto" style={{ textAlign: 'start' }}>
                 <div className="row toggler">
                     <div className="col-6 log-regToggler logToggle" id="logToggle" ><span class="setMargin">{t("Elogin")}</span></div>
-                    <div className="col-6 log-regToggler regToggle" id="regToggle" ><span class="setMargin">Create an account</span></div>
+                    <div className="col-6 log-regToggler regToggle" id="regToggle" ><Link style={{margin:"10px", color:"coral"}} to={`/register?redirect=${redirect}`}  className="registerEmail"><span  class="setMargin">Create an account</span></Link></div>
+                   
                 </div>
                 <div className="row frm ">
                     <div className="col-md-6 devider loginSection logsec" id="logsec" style={{ "background-color": "#78787800" }}>
@@ -124,13 +125,13 @@ const onChangeEmail = (e) => {
                                     <span className="btnLogo"><i className="fas fa-envelope"></i></span>
                                     <span className="loginBtnTxt">{t("Elog")}</span>
                                 </button></div>
-                            <br className="or" />
+                            {/* <br className="or" />
                             <div className="row or">
                                 <div className="col-5" style={{ "padding": "0px" }}><hr /></div>
                                 <div className="col-2" style={{ "display": "flex", "justify-content": "center", "padding": "0px" }}>{t("Eor")}</div>
                                 <div className="col-5" style={{ "padding": "0px" }}><hr /></div>
                             </div>
-                            <br />
+                            <br /> */}
                             {/* <div className="col-12 formFB"><button  type="button" className="btn  btn-block H48 fbBtn"><span className="btnLogo"><i className="fab fa-facebook-square"></i></span><span className="loginFBBtnTxt">{t("Elogface")}</span></button></div> */}
                         </form>
 
@@ -144,14 +145,14 @@ const onChangeEmail = (e) => {
 
 
                             <Link to={`/register?redirect=${redirect}`}  className="registerEmail"><div className="col-12 formLogin"><button type="button" className="btn  btn-block H48 lgnBtn" > <span className="btnLogo"><i className="fas fa-envelope"></i></span><span className="loginBtnTxt">{t("Ecema")}</span></button></div></Link>
-                            <br className="or" />
+                            {/* <br className="or" />
                             <div className="row or">
                                 <div className="col-5" style={{ "padding": "0px" }}><hr /></div>
                                 <div className="col-2" style={{ "display": "flex", "justify-content": "center", "padding": "0px" }}>{t("Eor")}</div>
                                 <div className="col-5" style={{ "padding": "0px" }}><hr /></div>
                             </div>
 
-                            <br />
+                            <br /> */}
                             {/* <div className="col-12 formFB"><button  type="button" className="btn  btn-block H48 fbBtn"><span className="btnLogo"><i className="fab fa-facebook-square"></i></span><span className="loginFBBtnTxt">{t("Erig")}</span></button></div> */}
                         </form>
 

@@ -250,12 +250,12 @@ import { Container } from 'reactstrap';
     <div class="row" style={{"margin-top": "20px",}}>
     <div class="col-lg-12 col-md-12 col-sm-12 divstyle">
     <h3 style={{"margin-top": "10px"}}>{t('Toprated')}</h3><br/>
-    
+    <div className="row">
     {products ? (Object.values(products).map((product, index) =>
      <Product key={product._id} product={product}/>            
               )) : (<h2>Not Found</h2>)}
     </div>
-
+    </div>
     </div>
 
     <div className="row" style={{ "margin-top": "40px" }}>
